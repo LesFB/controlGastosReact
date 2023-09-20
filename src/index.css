@@ -21,6 +21,15 @@ html {
 *:after {
     box-sizing: inherit;
 }
+@media (max-width: 768px) {
+    * {
+        width: 100%; 
+    }
+    *::placeholder{
+        font-size: 25px;
+    }
+    
+}
 
 .fijar {
     overflow: hidden;
